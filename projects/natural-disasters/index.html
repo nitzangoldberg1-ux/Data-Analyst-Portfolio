@@ -17,32 +17,46 @@ body{
 header{
     background:#0f172a;
     color:white;
-    padding:45px 20px;
+    padding:38px 20px;
     text-align:center;
+}
+
+header h1{
+    margin-bottom:8px;
 }
 
 section{
     max-width:1000px;
     margin:0 auto;
-    padding:40px 24px;
+    padding:38px 24px;
 }
 
 .project-img{
     width:100%;
-    max-height:420px;
+    max-height:390px;
     object-fit:contain;
     background:white;
     border-radius:15px;
     box-shadow:0 6px 15px rgba(0,0,0,0.12);
-    margin-bottom:30px;
+    margin-bottom:28px;
 }
 
 .card{
     background:white;
-    padding:25px;
+    padding:24px;
     border-radius:15px;
     box-shadow:0 6px 15px rgba(0,0,0,0.10);
-    margin-bottom:25px;
+    margin-bottom:24px;
+}
+
+.card p{
+    font-size:16px;
+    line-height:1.7;
+}
+
+.card li{
+    margin-bottom:10px;
+    line-height:1.6;
 }
 
 .btn{
@@ -61,7 +75,7 @@ section{
 
 <header>
 <h1>Natural Disasters Analysis</h1>
-<p>Final Project | Tableau Dashboard | Data Analysis</p>
+<p>Final Data Analytics Project | Python & Tableau | 1970–2021</p>
 </header>
 
 <section>
@@ -71,43 +85,88 @@ section{
 <div class="card">
 <h2>Project Overview</h2>
 <p>
-This project analyzes global natural disasters between 1970–2021.
-The dashboard explores disaster trends, affected populations, economic damages,
-regional differences and major disaster types around the world.
+This final project analyzes global natural disasters between 1970 and 2021.
+The project examines how disaster type, country characteristics and economic development level influence the human and economic damage caused by natural disasters.
+</p>
+<p>
+The goal of the analysis is to support governments and emergency organizations in improving disaster preparedness, resource allocation, infrastructure planning and long-term risk management.
 </p>
 </div>
 
 <div class="card">
-<h2>Tools Used</h2>
-<p>Tableau | Excel | Data Cleaning | Data Visualization | Dashboard Design</p>
+<h2>Key Numbers</h2>
+<ul>
+<li>11,041 natural disaster events between 1970–2021.</li>
+<li>Approximately 3.3 million fatalities.</li>
+<li>Approximately 8 billion affected people.</li>
+<li>Approximately $4.30B in accumulated economic damage.</li>
+</ul>
 </div>
 
 <div class="card">
 <h2>Main Research Question</h2>
 <p>
-How have natural disasters changed over time, and which regions and disaster types
-have had the strongest impact on populations and economic damages?
+What factors influence the severity of natural disasters worldwide, as reflected in the scale of human and economic damage?
+</p>
+</div>
+
+<div class="card">
+<h2>Dataset</h2>
+<p>
+The project is based on the EM-DAT disaster database, one of the leading and most reliable international sources for studying natural disasters and their effects on populations and economies.
+</p>
+<p>
+The dataset includes disaster type, country classification, GDP per capita, population size, human impact, economic damage and disaster severity indicators.
+</p>
+</div>
+
+<div class="card">
+<h2>Tools Used</h2>
+<p>
+Python • Pandas • Data Cleaning • Exploratory Data Analysis • Tableau • Dashboard Design • Data Visualization
 </p>
 </div>
 
 <div class="card">
 <h2>Key Insights</h2>
 <ul>
-<li>Natural disasters show different patterns across regions and years.</li>
-<li>Some disaster types create higher economic damages, while others affect larger populations.</li>
-<li>Regional exposure plays a major role in the severity and frequency of disasters.</li>
+<li>Floods and storms are the most common natural disasters worldwide.</li>
+<li>Floods and droughts affect the largest number of people globally.</li>
+<li>Earthquakes are the deadliest disaster type in terms of fatalities.</li>
+<li>Storms, earthquakes and floods generate the highest economic damages.</li>
+<li>Poorer countries show higher human impact on average compared to wealthier countries.</li>
+<li>Economic damage is affected not only by disaster severity, but also by the country’s level of economic development.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Recommendations</h2>
+<ul>
+<li>Strengthen early warning systems in vulnerable countries.</li>
+<li>Prioritize resources for disaster types with the highest impact.</li>
+<li>Use disaster severity indicators to support emergency decision-making.</li>
+<li>Adapt emergency plans according to each country’s level of economic development.</li>
+<li>Develop a data-driven risk prediction and disaster management system.</li>
 </ul>
 </div>
 
 <div class="card">
 <h2>Project Files</h2>
 <p>
-Download the project files and final deliverables:
+Download the project resources:
 </p>
 
-<a href="#" class="btn">Download Dashboard</a>
-<a href="#" class="btn">Download Dataset</a>
-<a href="#" class="btn">Download Report</a>
+<a href="../../files/natural_disasters_dataset.csv" class="btn">
+📊 Download Dataset
+</a>
+
+<a href="../../files/final_disasters_project.ipynb" class="btn">
+🐍 Download Python Notebook
+</a>
+
+<a href="../../files/natural_disasters_graphs.twb" class="btn">
+📈 Download Tableau File
+</a>
 </div>
 
 <a href="../../index.html" class="btn">← Back to Portfolio</a>
