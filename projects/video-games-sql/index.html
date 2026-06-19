@@ -1,1 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Video Games SQL Analysis | Nitzan Goldberg</title>
+
+<style>
+body{font-family:Arial,sans-serif;margin:0;background:#f5f7fa;color:#111827;}
+header{background:#0f172a;color:white;padding:38px 20px;text-align:center;}
+section{max-width:1000px;margin:0 auto;padding:38px 24px;}
+.project-img{width:100%;max-height:390px;object-fit:contain;background:white;border-radius:15px;box-shadow:0 6px 15px rgba(0,0,0,0.12);margin-bottom:28px;}
+.card{background:white;padding:24px;border-radius:15px;box-shadow:0 6px 15px rgba(0,0,0,0.10);margin-bottom:24px;}
+.card p{font-size:16px;line-height:1.7;}
+.card li{margin-bottom:10px;line-height:1.6;}
+.btn{display:inline-block;padding:10px 18px;background:#2563eb;color:white;text-decoration:none;border-radius:8px;margin:8px 8px 8px 0;}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Video Games SQL Analysis</h1>
+<p>Final SQL Project | Video Game Sales Dataset</p>
+</header>
+
+<section>
+
+<img src="../../images/images/VIDEO GAMES SQL ANALYSIS.png" class="project-img" alt="Video Games SQL Analysis">
+
+<div class="card">
+<h2>Project Overview</h2>
+<p>
+This SQL final project analyzes video game sales data in order to understand sales performance,
+regional preferences, platform trends, genre behavior and the relationship between scores and global sales.
+</p>
+<p>
+The project focuses on writing business-oriented SQL queries that answer analytical questions
+relevant to publishers, developers and decision-makers in the gaming industry.
+</p>
+</div>
+
+<div class="card">
+<h2>Business Questions</h2>
+<ul>
+<li>What factors most influence a game’s global sales success?</li>
+<li>How do regional preferences differ across platforms and genres?</li>
+<li>How many games were released on three or more platforms?</li>
+<li>Which year had the highest number of genres reaching their sales peak?</li>
+<li>Which platform recorded the highest year-over-year growth in global sales?</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Tools Used</h2>
+<p>
+SQL Server • Excel • Data Analysis • Aggregations • Window Functions • Data Scaffolding • YoY Analysis
+</p>
+</div>
+
+<div class="card">
+<h2>SQL Techniques Used</h2>
+<ul>
+<li>GROUP BY and aggregation functions.</li>
+<li>COUNT(DISTINCT) to identify games released on multiple platforms.</li>
+<li>RANK() to identify peak years by genre.</li>
+<li>Weighted average, regular average and mode calculations.</li>
+<li>Data scaffolding to create all Genre × Platform × Year combinations.</li>
+<li>LAG() window function for year-over-year growth analysis.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Key Findings</h2>
+<ul>
+<li>1,283 games were released on three or more platforms.</li>
+<li>2008 was the year with the highest number of genres reaching their peak global sales.</li>
+<li>The ratings AO and K-A had identical weighted average, regular average and mode values because all games in those categories shared the same critic score.</li>
+<li>The analysis shows that platform, genre, region and critic scores can all be used to evaluate video game sales performance.</li>
+<li>Regional sales analysis helps identify where specific genres and platforms perform better.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Project Files</h2>
+<p>
+Download the project resources:
+</p>
+
+<a href="../../files/video_games_sql_queries.sql" class="btn">
+🗄️ Download SQL Queries
+</a>
+
+<a href="../../files/video_games_sales_2016.xlsx" class="btn">
+📊 Download Dataset
+</a>
+
+<a href="../../files/video_games_project_report.docx" class="btn">
+📄 Download Project Report
+</a>
+</div>
+
+<a href="../../index.html" class="btn">← Back to Portfolio</a>
+
+</section>
+
+</body>
+</html>
